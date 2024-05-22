@@ -1,7 +1,8 @@
 import { About } from "@/components/about/About";
-import { Hero } from "@/components/Hero";
+import { Hero } from "@/components/hero/Hero";
 import { MottoText } from "@/components/MottoText";
-import { ZoomGallery } from "@/components/ZoomGallery";
+import { Products } from "@/components/Products";
+import { ZoomGallery } from "@/components/zoomgallery/ZoomGallery";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <MottoText />
       <ZoomGallery />
       <About />
+      <Products />
     </main>
   );
 }
